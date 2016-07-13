@@ -17,7 +17,7 @@ class ELExpression():
         self.result = []
         self.pool = ThreadPool(10)
         self.q = []
-        self.payload = '{1000-121}'
+        self.payload = '${1000-121}'
         self.match = '879'
 
     def putinqueue(self, info):
